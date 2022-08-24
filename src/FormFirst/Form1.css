@@ -1,0 +1,126 @@
+*{
+    font: 1em sans-serif;
+}
+input{
+    height: 43PX;
+    color: rgb(115, 111, 111);
+    background-color: rgb(255, 236, 236);
+    border:  none;
+    padding-left: 12px;
+   }
+input:focus{
+
+  background-color:white;
+  outline-color: greenyellow;
+  transition: background-color .4s ;
+}
+
+.form1{
+  width: 80%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+    border:1px solid  rgb(255, 236, 236);
+    border-radius: 5px;
+    padding: 20px 0px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.form1col1 input{
+    width: 100%;
+   }
+   .form1col input{
+    width: 23rem;
+   }
+.form1row1{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.form1col1{
+    display: flex;
+    flex-direction: column;
+}
+.form1row{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.form1col{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    text-align: left;
+    }
+
+.form1col,.form1col1{
+    margin-bottom: 15px;
+}
+h3{
+    padding-top: 15px;
+}
+@media (max-width:1150px) {
+
+       .form1col input{
+        width: 20.7rem;
+       }
+       
+}
+@media (max-width:992px) {
+    
+        .form1col input{
+        width: 18.7rem;
+       }
+}@media (max-width:910px) {
+    
+       .form1col input{
+        width: 16.7rem;
+       }
+}
+@media (max-width:805px) {
+    
+       .form1col input{
+        width: 15.7rem;
+       }
+}
+@media (max-width:755px) {
+    
+       .form1col input{
+        width: 14rem;
+       }
+       .form1col1 input{
+        width: 80%;
+        margin-left: 10%;
+       }
+       .form1col1 p{
+        
+        margin-left: 10%;
+       }
+
+}
+@media (max-width:665px) {
+    
+    
+       .form1col input{
+        width: 80%;
+       }
+       .form1row{
+        display: block;
+       }
+       .form1col{
+        align-items: center;
+       }
+       .form1col1 input{
+        width: 80%;
+        margin-left: 0%;
+       }
+       .form1row1{
+        display: block;
+       }
+       .form1col1{
+        align-items: center;
+       }
+   
+}

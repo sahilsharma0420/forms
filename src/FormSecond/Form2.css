@@ -1,0 +1,142 @@
+*{
+    font: 1em sans-serif;
+}
+input{width:23.7rem;
+    height: 43PX;
+    color: rgb(115, 111, 111);
+    background-color: rgb(255, 236, 236);
+    border:  none;
+    padding-left: 12px;
+   }
+input:focus{
+
+  background-color:white;
+  outline-color: greenyellow;
+  transition: background-color .4s ;
+}
+
+.form2{
+   width: 80%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    border:1px solid  rgb(255, 236, 236);
+    border-radius: 5px;
+    padding: 20px 0px;
+    padding-left: auto;
+    padding-right: auto;
+}
+.form2row{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.form2col{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    text-align: left;
+    
+}
+h3{
+    
+    padding-bottom: 20px;
+}
+.inputclass{
+    margin-bottom: 10px;
+}
+.form2col{
+    margin-bottom: 15px;
+}
+@media (max-width:1150px) {
+    .inputclass{
+        
+        height: 43PX;
+        color: rgb(115, 111, 111);
+        background-color: rgb(255, 236, 236);
+        border:  none;
+        padding-left: 12px;
+       }
+       .form2col input{
+        width: 20.7rem;
+       }
+       
+}
+@media (max-width:992px) {
+    
+    .inputclass{
+        height: 43PX;
+        color: rgb(115, 111, 111);
+        background-color: rgb(255, 236, 236);
+        border:  none;
+        padding-left: 12px;
+       }
+       .form2col input{
+        width: 18.7rem;
+       }
+}@media (max-width:910px) {
+    
+    .inputclass{
+        height: 43PX;
+        color: rgb(115, 111, 111);
+        background-color: rgb(255, 236, 236);
+        border:  none;
+        padding-left: 12px;
+       }
+       .form2col input{
+        width: 16.7rem;
+       }
+}
+@media (max-width:805px) {
+    
+    .inputclass{
+        height: 43PX;
+        color: rgb(115, 111, 111);
+        background-color: rgb(255, 236, 236);
+        border:  none;
+        padding-left: 12px;
+       }
+       .form2col input{
+        width: 15.7rem;
+       }
+}
+@media (max-width:755px) {
+    
+    .inputclass{
+        height: 43PX;
+        color: rgb(115, 111, 111);
+        background-color: rgb(255, 236, 236);
+        border:  none;
+        padding-left: 12px;
+       }
+       .form2col input{
+        width: 14rem;
+       }
+}
+@media (max-width:665px) {
+    
+    .inputclass{
+        height: 43PX;
+        color: rgb(115, 111, 111);
+        background-color: rgb(255, 236, 236);
+        border:  none;
+        padding-left: 12px;
+       }
+       .form2col input{
+        width: 80%;
+       }
+       .form2row{
+        display: block;
+       }
+       .form2col{
+        align-items: center;
+       }
+       p{
+       align-items:flex-start;
+       }
+       
+}
+
+
