@@ -25,7 +25,7 @@ function Form1() {
         <div className='form1row'>
         <div className='form1col'>
         <p>Mobile Number</p>
-        <input className='inputclass' type="number" placeholder='Enter your mobile number'/>
+        <input className='inputclass' type="number" placeholder='Enter your Mobile number'/>
         </div>
         <div className='form1col'>
         <p>Company  Name</p>
